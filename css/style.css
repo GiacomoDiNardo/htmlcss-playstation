@@ -39,3 +39,13 @@
     object-position: top;
     padding-top: 115px;
 }
+
+.jumbo-title {
+    padding-top: 17rem;
+    padding-bottom: 3rem;
+}
+
+.jumbo-title img {
+    width: 60%;
+}
+
