@@ -5,28 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <title>Playstation</title>
 </head>
 <body>
     <header>
-        <div class="container-fluid">
+        <div class="container-fluid px-0">
             <!-- Black bar -->
-            <div class="black-bar"></div>
+            <div class="black-bar p-2 d-flex justify-content-end">
+                <img class="" src="img/sony_logo.svg" alt="">
+            </div>
 
             <!-- white bar -->
-            <div class="nav"></div>
+            <div class="nav p-3 d-flex justify-content-between align-items-center">
+                <div class="nav-left d-flex align-items-center">
+                    <div class="ps-logo">
+                        <a href="javascript:void(0)">
+                            <img src="img/play_logo.svg" alt="">
+                        </a>
+                    </div>
+
+                    <div class="nav-menu d-none d-lg-block">
+                        <a href="javascript:void(0)">Giochi <i class="fa-solid fa-angle-down"></i></a>
+                        <a href="javascript:void(0)">Hardware <i class="fa-solid fa-angle-down"></i></a>
+                        <a href="javascript:void(0)">Servizi <i class="fa-solid fa-angle-down"></i></a>
+                        <a href="javascript:void(0)">Novità <i class="fa-solid fa-angle-down"></i></a>
+                        <a href="javascript:void(0)">Fai acquisti <i class="fa-solid fa-angle-down"></i></a>
+                        <a href="javascript:void(0)">Supporto <i class="fa-solid fa-angle-down"></i></a>
+                    </div>
+                </div>
+
+                <div class="nav-menu d-none d-lg-block">
+                    <a href="javascript:void(0)">My Playstation <i class="fa-solid fa-angle-down"></i></a>
+                
+                    <button class="btn btn-dark btn-radius mx-3">Accedi</button>
+                    <i class="fa-solid fa-magnifying-glass ms-3 fs-5"></i>
+                </div>
+
+                <div class="hamburger-menu d-block d-lg-none fs-4 text-muted"><i class="fa-solid fa-bars"></i></div>
+            </div>
         </div>
     </header>
 
     <main>
         <!-- jumbotron -->
-        <div class="section bg-jumbo">
-            <div class="container jumbo-h-debug position-relative">
-                <!-- titolo e descrizione gioco sfondo -->
+        <div class="section position-relative">
+            <img src="img/jumbo-bg.png" class="position-absolute" alt="">
+
+            <div class="container jumbo-h-debug">
                 <div class="row">
-                    <div class="col col-md-6 position-absolute bottom-0 start-0">
+                    <div class="col col-md-6 bottom-0 start-0">
                         <div class="jumbo-title-debug">
                             <h2>TITOLO</h2>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem ea ullam sint facere deserunt cumque voluptate, debitis doloremque quae velit eos officia facilis culpa quisquam voluptatibus consectetur asperiores in hic!</p>
