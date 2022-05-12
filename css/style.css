@@ -35,7 +35,12 @@ body {
 
 .hamburger-menu {
     border: 1px solid lightgrey;
-    padding: 0 1rem;
+    padding: .3rem 1rem;
+}
+
+.hamburger-menu svg {
+    width: 30px;
+    color: grey;
 }
 
 .bg-image {
@@ -76,7 +81,7 @@ body {
 }
 
 .my-card.card-slider img {
-    width: 60%;
+    width: 100%;
 }
 
 .border-focus {
@@ -96,7 +101,7 @@ body {
 }
 
 .plus-image {
-    right: 3rem;
+    right: 0;
     top: 0;
     bottom: 0;
     height: 100%;
@@ -132,4 +137,20 @@ body {
 
   .info {
       color: white;
+  }
+
+  @media screen and (min-width: 768px) {
+    .my-card.card-slider img {
+        width: 60%;
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    .plus-image {
+        right: 3rem;
+        top: 0;
+        bottom: 0;
+        height: 100%;
+        object-fit: contain;
+      }
   }
