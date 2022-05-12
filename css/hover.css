@@ -1,0 +1,50 @@
+.btn {
+    border-width: 2px;
+}
+
+.btn-danger:hover {
+    border: 2px solid black;
+    box-shadow: 0 0 0 2px var(--bs-danger);
+}
+
+.btn-primary:hover {
+    border: 2px solid white;
+    box-shadow: 0 0 0 2px var(--bs-primary);
+}
+
+.btn-dark:hover {
+    border: 2px solid white;
+    box-shadow: 0 0 0 2px var(--bs-dark);
+}
+
+.btn-lightgrey:hover {
+    border: 2px solid #BEBCBB;
+    box-shadow: 0 0 0 2px #D9DADC;
+}
+
+.btn-light:hover {
+    border: 2px solid #161C3B;
+    box-shadow: 0 0 0 2px white;
+}
+
+.nav-menu a:hover {
+    color: #484e53;
+}
+
+.card-effect .my-card {
+    transition: transform .3s;
+}
+
+.card-effect:hover .my-card {
+    transform: translateY(-40px);
+}
+
+.card-slider {
+    border-bottom: 2px solid transparent;
+    transition: opacity .3s, border-bottom .3s;
+}
+
+.card-slider:hover {
+    opacity: 1 !important;
+    border-bottom: 2px solid blue;
+}
